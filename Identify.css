@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&family=Poppins:wght@200&display=swap');
+body {
+    background-color: aliceblue;
+    text-align: center;
+}
+.heading {
+    color: black;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#about {
+    color: black;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.object {
+    color: black;
+    font-size: 20px;
+    height: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom: 2px solid black;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+#camera {
+    border: 3px dotted black;
+    width: 300px;
+    height: 250px;
+    margin-left: 38%;
+}
+#pic {
+    border: 3px dotted black;
+    width: 350px;
+    height: 300px;
+    margin-left: 38%;
+}
+#capture_btn {
+    background-color: rgb(29, 81, 124);
+    color: bisque;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    cursor: pointer;
+}
+#identify_btn {
+    background-color: rgb(29, 81, 124);
+    color: bisque;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

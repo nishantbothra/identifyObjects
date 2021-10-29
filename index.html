@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Identify Object</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link rel="stylesheet" href="Identify.css">
+    </head>
+    <body>
+        <h1 class="btn btn-default heading">Image Recognition</h1>
+        <br>
+        <h3 id="about">Model is trained to IDENTIFY the following Objects</h3>
+        <br>
+        <p class="object">Happy Human (Face) <i class="far fa-smile-beam"></i></p>
+        <br>
+        <p class="object">Keyboard <i class="fas fa-keyboard"></i></p>
+        <br>
+        <p class="object">Headphones <i class="fas fa-headphones"></i></p>
+        <br>
+        <p class="object">Bottle <i class="fas fa-wine-bottle"></i></p>
+        <br>
+        <div id="camera"></div>
+        <br> <br>
+        <div id="pic"></div>
+        <br>
+        <button id="capture_btn" onclick="capture()">Capture</button>
+        <br> <br>
+        <button id="identify_btn" onclick="identify()">Identify</button>
+        <br>
+        <h4 id="object">Object: <span id="object_name"></span></h4>
+        <h4 id="accuracy">Accuracy: <span id="accuracy_result"></span></h4>
+        <script src="Identify.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
